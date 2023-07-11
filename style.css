@@ -180,3 +180,15 @@ button {
     display: flex;
     flex-wrap: wrap;
 }
+
+::selection {
+    background-color: #000000;
+    color: #ccc;
+}
+
+::-webkit-scrollbar {
+    background-color: #202020;
+}
+::-webkit-slider-thumb {
+    background-color: red;
+}
