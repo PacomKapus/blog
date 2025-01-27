@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color:  white;
+}
+
+body {
+   background-color: #202020;
+   font-family: serif;
+   width: 100%;
+}
+
+img {
+    width: 100%;
+    border-radius: 50px 50px 0px 0;
+}
+
+p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 95%;
+    margin: 10px auto 0 auto;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition:all .5s linear ;
+    margin: 10px auto;
+    display: block;
+    border: none;
+}
+
+button:hover {
+    color: #ff0000;
+    background-color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    display: flex;
+    border: none;
+    width: 100px;
+    height: 50px ;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+    transition:all 5s linear;
+    color: black;
+    margin: 0 10px 0 0;
+}
+
+.button:hover {
+    color: gold;
+    background-color: #000000;
+}
+
+.but {
+    display: flex;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    color: gold;
+    background-color: #000000;
+    border-color: gold;
+    transition:all 5s linear;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.but:hover {
+    color: #000000;
+    background-color: gold;
+    border-color: #000000;
+}
+
+.div {
+    display: flex;
+    justify-content: end;
+}
+
+.div__1 {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height:500px ;
+    align-items: center;
+    box-shadow: 0 0 5px 1px gold;
+    border-radius: 50px;
+    color: white;
+    margin: auto;
+    background-color: #202020;
+}
+
+.div__div {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+.menu__h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.menu__1 {
+    margin-bottom: 50px ;
+}
+
+.text__input {
+    width: 220px;
+    border-radius: 5px;
+}
+
+strong {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid #202020;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    background-color: #cccccc0d;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 10px 30px 20px 30px;
+    border: 1px solid #ccc;
+    width:45% ;
+    box-shadow: 0 0 5px 1px gold;
+    border-radius: 50px;
+}
+
+#output {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+::selection {
+    background-color: #000000;
+    color: #ccc;
+}
+
+::-webkit-scrollbar {
+    background-color: #57450d;
+}
+
+::-webkit-slider-thumb {
+    background-color: red;
+}

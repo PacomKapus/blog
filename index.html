@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div">
+        <button class="button" onclick="toggleMenu()">+ create</button>
+    </div>
+    
+    <div  class="div__div">
+    <div id="myForm" class="hidden">
+        <div class="div__1">
+            <div class="div__2" id="myForm">
+                <h1>Blog</h1>
+                <label for="photo" class="menu__h2 menu__1">Photo link:</label><br>
+                <div><input placeholder="Enter photo..." type="text" id="photo" name="photo" required><br><br>
+
+                <label for="name" class="menu__h2">Name:
+                </label><br>
+                <input type="text" placeholder="Enter name..." id="name" name="name" required><br><br>
+
+                <label for="text" class="menu__h2">Text:</label>
+                <textarea placeholder="Enter text..." id="text" name="text" required></textarea><br>
+
+                <input type="button" value="Save" onclick="saveData()" class="but"><br>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
